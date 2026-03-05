@@ -58,7 +58,7 @@
     gap: 68px 130px;
 }
 .div-1{
-    width: 490px;
+    width: 90%;
     margin-top:  160px;
      margin-left: 130px;
      text-align: left;
@@ -76,14 +76,19 @@
     height: 48px;
     margin-right: 20px ;
     background-color: #000000;
-    color: #F3F3F3;
     text-align: center;
+    color: #F3F3F3;
     padding-top: 15px;
 }
 .div-4{
     width: 236px;
     height:44px;
     font-size:14px;
+}
+.long-g{
+    color: #F3F3F3;
+    font-size: 24px;
+
 }
 .allo{
     width: 360px;
@@ -109,6 +114,7 @@
 }
 .allo{
     margin-top: 64px;
+    gap: 16px;
 }
 .allo-1{
     display: flex;
@@ -116,17 +122,21 @@
   column-gap: 16px;
   margin-bottom: 16px;
 }
-.long{
+.long-3{
+    padding-top: 100px;
+    padding-left: 130px;
     display: flex;
     flex-direction: column;
     width: 90%;
     max-width: 1140px;
     margin: 0 auto;
+    background-color: #000000;
 }
 .long-1{
     width: 100%;
     background-color: #000000;
-    height: auto;
+    height: 600px;
+    display: flex;
 }
 .long-2{
     color: #F3F3F3;
@@ -134,28 +144,8 @@
      text-align: left;
      margin-top: 64px;
     height: auto;
-    column-gap: 16px;
-}
-
-.long-3{
-    background-image:url("../imig/desktop.jpg"); ;
-        width: 100%;
-  height: auto;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-position: center;
-}
-.long-4{
-     display: flex;
-        width: 100%;
-        margin: 0 auto;
-        align-items: center;
-        column-gap: 30px;
-       padding-left: 150px;
-       padding-top: 96px;
+    margin-top: 90px;
+    margin-left: 130px;
 }
 .turn{
     background-image: url("../imig/desktop.jpg");
@@ -167,17 +157,71 @@
   align-items: center;
   background-position: center;
 }
+.long-4{
+    display: flex;
+}
 .headline-1{
     color: #F3F3F3;
     font-size: 16px;
+    text-align: center;
+     flex-direction: column;
+    background-position: left;
+    align-items: center;
+    background-position: center;
+    padding-top: 197px;
+    
+}
+.h-4{
+    color: #F3F3F3;
+    font-size: 46px;
+    text-align: center;
+     flex-direction: column;
+    background-position: left
+}
+.Action{
+    color: #F3F3F3;
+    font-size: 16px;
+    text-align: center;
+     flex-direction: column;
+    background-position: left
 }
 .long-5{
     display: flex;
     flex-direction: column;
-        width: 100%;
-        text-align: left;
-        margin-top: 64px;
+    background-position: left;
+     width: 90%;
+    text-align: left;
+    margin-top: 64px;
 
+}
+.footer{
+    background-color: #000000;
+    width: 100%;
+    display: flex;
+    color: #F3F3F3;
+}
+.footer-1{
+    display: flex;
+}
+.footer-2{
+    display: flex;
+    margin-top: 210px;
+    margin-top: 96px;
+}
+.footer-3{
+    margin-top: 96px;
+    margin-left: 210px;
+}
+.footer-4{
+    display: flex;
+    margin-top: 96px;
+    margin-left:210px;
+}
+.footer-5{
+    padding-right: 110px;
+}
+.footer-6{
+    padding-right: 210px;
 }
 @media (max-width:1024px){
   .div{
@@ -197,10 +241,50 @@
   .div{
     width: 100%;
   }
-}
 .long-5{
     display: flex;
 
+}
+.footer{
+     width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-4{
+      width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 20px 30px;
+}
+.footer-5{
+       width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 20px 30px;
+    padding-bottom: 30px;
+}
+.footer-2{
+      width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 20px 30px;
+}
+.footer-3{
+      width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 20px 30px;
+}
 }
 @media (max-width:744px){
     .div-2{
@@ -211,12 +295,9 @@
     .div-5{
         flex-direction: column;
          row-gap: 20px;
+          display: flex;
+        height: auto;
     }
-    .long-5{
-    display: flex;
-    height: auto;
-    
-}
     .allo{
     width: 100%;
     text-align: center;
@@ -229,7 +310,48 @@
         text-align: center;
         flex-direction: column;
         align-items: center;
+        gap: 30px;
     }
+    .long-4{
+     display: flex;
+    flex-direction: column;
+    background-position: left;
+     width: 90%;
+    text-align: left;
+    }
+  .long-5{
+    flex-direction: column;
+    background-position: left;
+     width: 90%;
+    text-align: left;
+    flex-direction: column;
+    grid-area: 30px;
+    margin-right: 60px;
+}
+.footer{
+     width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 20px 30px;
+
+}
+.footer-4{
+      width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-5{
+      width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 20px 30px;
+}
 }
 @media(max-width: 724px){
     .long-1{
@@ -249,22 +371,49 @@
     .long-2{
         width: 100%;
     }
-    .turn{
+      .turn{
         background-image: url("../imig/CTAImg-Tablet-1024px.jpg");
         height: 588px;
     }
-    .long-3{
-        background-image: url("../imig/CTAImg-Mobile-375px.jpg");
-        height: 588px;
-    }
+
+.long-4{
+     display: flex;
+    flex-direction: column;
+    background-position: left;
+     width: 90%;
+    text-align: left;
+
+   }
+   .long-5{
+    display: flex;
+    flex-direction: column;
+    background-position: left;
+     width: 90%;
+    text-align: left;
+    gap: 30px 30px;
 }
-@media(max-width: 375px){
-    .Tagline{
-        background-image: url("../imig/CTAImg-Mobile-375px.jpg");
-        height: 500px;
+footer{
+     width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 20px 30px;
 }
-.long-3{
-    background-image: url("../imig/CTAImg-Mobile-375px.jpg");
-    height: auto;
+.footer-4{
+      width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 20px 30px;
+}
+.footer-5{
+      width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 20px 30px;
 }
 }
